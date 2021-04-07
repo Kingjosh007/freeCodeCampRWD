@@ -15,7 +15,7 @@ body {
         ". sidebar . section-right .";
 }
 #navbar {
-  max-height: 95vh;
+  max-height: 100vh;
   padding: 1em;
   position: sticky;
   top: 0;
@@ -26,14 +26,15 @@ body {
     color: #fff;
   }
 
+  #menu-container {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
   .code-example {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: .5em;
-  }
-
-  .emmet-example {
   }
 
   .language-html {
